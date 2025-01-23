@@ -60,3 +60,7 @@ print(list10)
 
 list11 = ['jj', 'dhd', 'kds', 'yyy']
 list11.pop(2)
+
+list12 = ['kkk', 'ttt', 'nnn', 'cr7']
+list12.pop()
+print(list12)
