@@ -64,3 +64,6 @@ list11.pop(2)
 list12 = ['kkk', 'ttt', 'nnn', 'cr7']
 list12.pop()
 print(list12)
+
+list13 = ['kkk', 'ttt', 'nnn', 'cr7']
+del list13[3]
