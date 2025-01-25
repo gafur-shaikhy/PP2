@@ -96,3 +96,80 @@ del thislist
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(thislist[i])
+print(len(thislist))  
+
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+print("*********************")
+
+
+thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+
+print("*********************")
+
+list87 =  ["apple", "banana", "cherry"]
+list88 = [x for x in list87]
+for l in list88 :
+  print(l)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+print(newlist)
+
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+print(newlist)
+
+# newlist = [expression for item in iterable if condition == True]
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
+thislist.reverse()
+print(thislist)
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
+
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+print(mylist)
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist[:]
+print(mylist)
+
+# append()	Adds an element at the end of the list
+# clear()	  Removes all the elements from the list
+# copy()	  Returns a copy of the list
+# count()	  Returns the number of elements with the specified value
+# extend()	Add the elements of a list (or any iterable), to the end of the current list
+# index()	  Returns the index of the first element with the specified value
+# insert()	Adds an element at the specified position
+# pop()	    Removes the element at the specified position
+# remove()	Removes the item with the specified value
+# reverse()	Reverses the order of the list
+# sort()	  Sorts the list
