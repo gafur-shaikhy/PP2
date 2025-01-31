@@ -15,4 +15,3 @@ def greet(lang):
          print("Hello")
 
 greet(lang)    
-
